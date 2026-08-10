@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
+description: Hung Mai is an AI researcher working on generative modelling and robot learning.
 subtitle: AI Scientist @ B0Labs | Research Intern @ SMU | Xayah Engineer @ Rito
+seo_title: Hung Mai | Generative AI & Robotics Researcher
 
 profile:
   align: right

@@ -2,17 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Hung Mai
+title: Hung Mai # the website title (if blank, full name will be used instead)
+first_name: Hung 
 middle_name: 
-last_name:
+last_name: Mai
 email: maphquochung@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic portfolio of Hung Mai.
+  Hung Mai is an AI researcher working on generative modelling,
+  robot learning, information theory.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: generative modelling, world model, hung mai, mai phan quoc hung, learning theory, information theory, smu, neu, robotics, robot learning, world action models, AI research # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: DP-modified.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -61,8 +62,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
