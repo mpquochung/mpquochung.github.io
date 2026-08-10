@@ -32,7 +32,7 @@ social: false # includes social icons at the bottom of the page
     </a>
 </div>
 
-<p style="font-size: 28px; font-weight: bold;">Hello, I'm <b>Hung Mai</b> 👋</p>
+<p style="font-size: 28px; font-weight: bold;">Hello, I'm <b>Mai Phan Quoc Hung (Hung Mai)</b> 👋</p>
 
 <p style="font-size: 18px; line-height: 1.6;">
     I am currently a Research Scientist at <a href="https://www.n2tp.com/" target="_blank" rel="noopener noreferrer">B0Labs @ N2TP Technology</a>, as well as a Research Intern at 
