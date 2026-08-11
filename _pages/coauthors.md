@@ -2,7 +2,7 @@
 layout: page
 permalink: /coauthors/
 title: Co-authors
-description: The researchers I have had the pleasure of learning from and working with. As of Updated in August 2026.
+description: The researchers I have had the pleasure of learning from and working with. As of updated in August 2026.
 nav: true
 nav_order: 3
 ---
