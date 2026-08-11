@@ -16,7 +16,7 @@
   group: advisor
   initials: TD
   image: avt/td.png
-  affiliation_logo: n2tp.png
+  affiliation_logo: n2tp.svg
   position: Head of RnD
   affiliation: B0Labs @ N2TP Technology
   collaboration_time: 2025-Present
@@ -64,7 +64,7 @@
   group: coauthor
   initials: LD
   image: avt/ld.png
-  affiliation_logo: n2tp.png
+  affiliation_logo: n2tp.svg
   position: Researcher
   affiliation: B0Labs @ N2TP Technology
   collaboration_time: 2025-Present
