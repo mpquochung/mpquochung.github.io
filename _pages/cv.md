@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /cv/
-title: CV (Update Jul 2026)
+title: CV
+description: As of Updated in August 2026
 nav: true
 nav_order: 6
-cv_pdf: CV_jul26.pdf
+cv_pdf: cv_aug26.pdf
 ---
 <div>
 
