@@ -277,6 +277,20 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  .navbar-brand.site-logo {
+    display: flex;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+
+    img {
+      display: block;
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+    }
+  }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 

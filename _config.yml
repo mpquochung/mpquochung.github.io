@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: generative modelling, world model, hung mai, mai phan quoc hung, learning theory, information theory, smu, neu, robotics, robot learning, world action models, AI research # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: DP-modified.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: DP-modified.ico # square favicon in /assets/img/ (Google recommends at least 48x48px)
 
 url: https://mpquochung.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
