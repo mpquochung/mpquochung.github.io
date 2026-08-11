@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <p class="coauthors-intro">
-  Research is a team effort, and I am deeply grateful to every co-author whose ideas, dedication, and collaboration have shaped the work we accomplished together. Hover over a card to see more.
+  One soul cannot be the whole world, and I am deeply grateful to every co-author whose ideas, dedication, and collaboration have shaped the work we accomplished together. Onward we go!
 </p>
 
 {% assign coauthors = site.data.collaborators | where: 'group', 'coauthor' %}
