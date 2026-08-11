@@ -1,0 +1,128 @@
+# Portraits go in assets/img/coauthors/ and affiliation logos go in
+# assets/img/coauthors/logos/. Omitted images fall back gracefully.
+- name: Bin Zhu
+  group: advisor
+  initials: BZ
+  image: avt/bz.png
+  affiliation_logo: smu.png
+  position: Assistant Professor
+  affiliation: Singapore Management University
+  collaboration_time: "2026–Present"
+  website: https://binzhubz.github.io/
+  collaboration: Robot Learning
+
+
+- name: Tuan Do
+  group: advisor
+  initials: TD
+  image: avt/td.png
+  affiliation_logo: n2tp.png
+  position: Head of RnD
+  affiliation: B0Labs @ N2TP Technology
+  collaboration_time: 2025-Present
+  collaboration: Generative modelling, Robot Learning & Information Theory
+
+
+- name: Naeem Ul Islam
+  group: advisor
+  initials: NI
+  image: avt/naeem.png
+  affiliation_logo: logo-150.png
+  position: Assistant Professor
+  affiliation: Yuan Ze University
+  collaboration_time: 2025
+  website: https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam
+  collaboration: Robot Learning
+
+- name: Toan Luu
+  group: advisor
+  initials: TL
+  image: avt/tluu.png
+  affiliation_logo: UBS-c7036cca.png
+  position: Chapter Lead
+  affiliation: UBS Group
+  collaboration_time: 2023-2025
+  website: https://www.linkedin.com/in/toanluu/
+  collaboration: Information Retrieval
+
+- name: Xuan-Lam Pham
+  group: advisor
+  initials: XP
+  image: avt/lampx.png
+  affiliation_logo: neu.png
+  position: Dean of Information Technology Faculty
+  affiliation: National Economics University
+  collaboration_time: 2023-2025
+  website: https://fit.neu.edu.vn/lecturer/phd-pham-xuan-lam
+  collaboration: AI in Education
+
+
+#---------------------------------------------------------
+
+
+- name: Doan Minh Luong
+  group: coauthor
+  initials: LD
+  image: avt/ld.png
+  affiliation_logo: n2tp.png
+  position: Researcher
+  affiliation: B0Labs @ N2TP Technology
+  collaboration_time: 2025-Present
+  website: https://scholar.google.com/citations?user=UlrZOcoAAAAJ
+  collaboration: Physical AI  
+
+- name: Hanh Nguyen
+  group: coauthor
+  initials: LD
+  image: avt/hanh.png
+  affiliation_logo: vinuni.png
+  position: MSc Student
+  affiliation: VinUni
+  collaboration_time: 2023-Present
+  collaboration: Robot Learning
+  website: https://www.linkedin.com/in/hanh-nguyen-29252b291/
+
+- name: Duc-Hai Nguyen
+  group: coauthor
+  initials: DH
+  image: avt/dhn.png
+  affiliation_logo: ntu.png
+  position: PhD Candidate
+  affiliation: Nanyang Technological University
+  collaboration_time: 2026-Present
+  collaboration: Communication & Game Theory
+  website: https://scholar.google.com/citations?user=iGSMILAAAAAJ
+
+- name: Quang-Hung Nguyen
+  group: coauthor
+  initials: LD
+  image: avt/quang.png
+  affiliation_logo: vinuni.png
+  position: MSc Student
+  affiliation: VinUni
+  collaboration_time: 2023-Present
+  collaboration: Language Modelling
+  website: https://scholar.google.com/citations?user=wnv-AeMAAAAJ
+
+
+- name: Quoc-Khanh Nguyen
+  group: coauthor
+  initials: QK
+  image: avt/qk.png
+  affiliation_logo: ntu.png
+  position: PhD Candidate
+  affiliation: Nanyang Technological University
+  collaboration_time: 2025-Present
+  collaboration: Communication & Game Theory
+  website: https://scholar.google.com/citations?user=IK4JaFkAAAAJ&hl  
+
+
+- name: Duong Phuong Giang
+  group: coauthor
+  initials: PG
+  image: avt/giang.png
+  affiliation_logo: fptqaci.png
+  position: Research Engineer
+  affiliation: FPT QACI
+  collaboration_time: 2023-2024
+  collaboration: Quantum Engineering

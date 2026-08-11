@@ -1,0 +1,39 @@
+<article class="coauthor-card" tabindex="0" aria-label="About {{ include.author.name }}">
+  <div class="coauthor-card__inner">
+    <div class="coauthor-card__face coauthor-card__front">
+      {% if include.author.image %}
+        <img class="coauthor-card__avatar" src="{{ '/assets/img/coauthors/' | append: include.author.image | relative_url }}" alt="Portrait of {{ include.author.name }}" loading="lazy">
+      {% else %}
+        <div class="coauthor-card__avatar coauthor-card__initials" aria-hidden="true">{{ include.author.initials }}</div>
+      {% endif %}
+      <div class="coauthor-card__front-copy">
+        <h3>{{ include.author.name }}</h3>
+        <p>{{ include.author.affiliation }}</p>
+      </div>
+      <span class="coauthor-card__hint"><i class="fa-solid fa-rotate" aria-hidden="true"></i> View profile</span>
+    </div>
+
+    <div class="coauthor-card__face coauthor-card__back">
+      <div>
+        {% if include.author.affiliation_logo %}
+          <img class="coauthor-card__logo" src="{{ '/assets/img/coauthors/logos/' | append: include.author.affiliation_logo | relative_url }}" alt="{{ include.author.affiliation }} logo" loading="lazy">
+        {% else %}
+          <div class="coauthor-card__logo-fallback" aria-hidden="true"><i class="fa-solid fa-building-columns"></i></div>
+        {% endif %}
+        <p class="coauthor-card__eyebrow">{{ include.author.name }}</p>
+        <h3>{{ include.author.position }}</h3>
+        <p class="coauthor-card__affiliation">{{ include.author.affiliation }}</p>
+        {% if include.author.collaboration_time %}
+          <p class="coauthor-card__time">
+            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            {% if include.author.group == 'advisor' %}Advising period{% else %}Collaboration period{% endif %}: {{ include.author.collaboration_time }}
+          </p>
+        {% endif %}
+        {% if include.author.collaboration %}<p class="coauthor-card__topic">{{ include.author.collaboration }}</p>{% endif %}
+      </div>
+      {% if include.author.website %}
+        <a href="{{ include.author.website }}" target="_blank" rel="noopener noreferrer">Visit website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+  </div>
+</article>
