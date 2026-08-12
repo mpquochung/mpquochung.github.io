@@ -22,7 +22,6 @@
   collaboration_time: 2025-Present
   collaboration: Generative modelling, Information Theory, Game Theory & Robot Learning
 
-
 - name: Naeem Ul Islam
   group: advisor
   initials: NI
@@ -32,7 +31,7 @@
   affiliation: Yuan Ze University
   collaboration_time: 2025
   website: https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam
-  collaboration: Robot Learning
+  collaboration: Computer Vision & Robotics
 
 - name: Toan Luu
   group: advisor
