@@ -15,8 +15,23 @@
 
     <div class="coauthor-card__face coauthor-card__back">
       <div>
-        {% if include.author.affiliation_logo %}
-          <img class="coauthor-card__logo" src="{{ '/assets/img/coauthors/logos/' | append: include.author.affiliation_logo | relative_url }}" alt="{{ include.author.affiliation }} logo" loading="lazy">
+        {% if include.author.affiliation_logos %}
+          <div class="coauthor-card__logos">
+            {% for logo in include.author.affiliation_logos %}
+              {% if logo.file %}
+                {% assign logo_file = logo.file %}
+                {% assign logo_name = logo.name | default: include.author.affiliation %}
+              {% else %}
+                {% assign logo_file = logo %}
+                {% assign logo_name = include.author.affiliation %}
+              {% endif %}
+              <img class="coauthor-card__logo" src="{{ '/assets/img/coauthors/logos/' | append: logo_file | relative_url }}" alt="{{ logo_name }} logo" loading="lazy">
+            {% endfor %}
+          </div>
+        {% elsif include.author.affiliation_logo %}
+          <div class="coauthor-card__logos">
+            <img class="coauthor-card__logo" src="{{ '/assets/img/coauthors/logos/' | append: include.author.affiliation_logo | relative_url }}" alt="{{ include.author.affiliation }} logo" loading="lazy">
+          </div>
         {% else %}
           <div class="coauthor-card__logo-fallback" aria-hidden="true"><i class="fa-solid fa-building-columns"></i></div>
         {% endif %}
@@ -26,13 +41,13 @@
         {% if include.author.collaboration_time %}
           <p class="coauthor-card__time">
             <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-            {% if include.author.group == 'advisor' %}Advising period{% else %}Collaboration period{% endif %}: {{ include.author.collaboration_time }}
+            {{ include.author.collaboration_time }}
           </p>
         {% endif %}
         {% if include.author.collaboration %}<p class="coauthor-card__topic">{{ include.author.collaboration }}</p>{% endif %}
       </div>
       {% if include.author.website %}
-        <a href="{{ include.author.website }}" target="_blank" rel="noopener noreferrer">Visit website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        <a class="coauthor-card__website" href="{{ include.author.website }}" target="_blank" rel="noopener noreferrer">Visit website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
       {% endif %}
     </div>
   </div>

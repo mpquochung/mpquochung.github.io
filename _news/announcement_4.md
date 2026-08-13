@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-07-15
+date: 2026-08-10
 inline: true
 related_posts: false
 ---
 
-I will attend UAI 2026
+Two papers will be presented at UAI 2026

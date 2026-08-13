@@ -22,8 +22,10 @@
 .coauthor-card__front-copy h3 { color: #fff; font-weight: 700; }
 .coauthor-card__front-copy p { margin: 0.25rem 0 0; color: rgba(255, 255, 255, 0.82); }
 .coauthor-card__hint { margin-top: 1rem; font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; }
-.coauthor-card__back { justify-content: space-between; padding: 1.6rem; border-top: 4px solid var(--global-theme-color); transform: rotateY(180deg); a { align-self: flex-start; font-weight: 600; } }
-.coauthor-card__logo { width: auto; max-width: 145px; height: 52px; margin-bottom: 1.2rem; object-fit: contain; object-position: left center; }
+.coauthor-card__back { justify-content: space-between; padding: 1.6rem; border-top: 4px solid var(--global-theme-color); transform: rotateY(180deg); }
+.coauthor-card__logos { display: flex; width: 100%; min-height: 52px; margin-bottom: 1.2rem; align-items: center; gap: 1rem; }
+.coauthor-card__logo { width: auto; min-width: 0; max-width: calc((100% - 1rem) / 2); height: 52px; object-fit: contain; object-position: left center; }
+.coauthor-card__logos .coauthor-card__logo:only-child { max-width: 145px; }
 .coauthor-card__logo-fallback { display: grid; width: 52px; height: 52px; margin-bottom: 1.2rem; place-items: center; border-radius: 0.75rem; background: rgba(128, 128, 128, 0.12); color: var(--global-theme-color); font-size: 1.45rem; }
 .coauthor-card__eyebrow { margin-bottom: 0.65rem; color: var(--global-theme-color); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
 .coauthor-card__affiliation { margin: 0.3rem 0 0; color: var(--global-text-color-light); font-weight: 600; }
@@ -31,4 +33,6 @@
 .coauthor-card__time i { width: 1.2rem; color: var(--global-theme-color); }
 .coauthor-card__topic { margin: 0.75rem 0 1rem; color: var(--global-text-color-light); }
 .coauthor-card__bio { line-height: 1.55; }
+.coauthor-card__website { display: flex; width: 100%; min-height: 44px; align-items: center; gap: 0.5rem; font-weight: 600; text-decoration: none; }
+.coauthor-card__website:hover, .coauthor-card__website:focus-visible { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { .coauthor-card__inner { transition-duration: 0.01ms; } }

@@ -10,9 +10,18 @@ profile:
   align: right
   image: profile_img.png
   image_circular: false # crops the image to make it circular
+  flip: true
+  name: HUNG MAI
+  position: AI Scientist
+  affiliation: N2TP & SMU 
+  affiliation_logos:
+    - file: n2tp.svg
+      name: B0Labs at N2TP Technology
+    - file: smu_logo.png
+      name: Singapore Management University
   more_info: >
     <div class="profile-contact">
-      <p><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+84785334804">+84 785 334 804</a></p>
+      <p><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+84785334804">+84 785334804</a></p>
       <p><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:maphquochung@gmail.com">maphquochung@gmail.com</a></p>
       <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Hanoi, Vietnam</span></p>
       <div class="profile-social-icons" aria-label="Social profiles">
@@ -52,12 +61,11 @@ social: false # includes social icons at the bottom of the page
     in Taiwan, under the supervision of Assistant Professor
     <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam" target="_blank" rel="noopener noreferrer">Naeem Ul Islam</a>,
     where I conduct my first research on Robotics. 
-    I began my academic research journey as a research assistant at NEU Codelabs, where I worked under the supervision of 
+    I began my research journey at NEU Codelabs, under the supervision of 
     <a href="https://fit.neu.edu.vn/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
-    on natural language processing and artificial intelligence in education.
+    on NLP and AI in Education.
 </p>
 
 <div style="width: 67%; box-sizing: border-box; font-size: 18px; line-height: 1.6; padding: 12px 16px; margin-bottom: 20px; border-left: 4px solid #2563eb; background-color: #eff6ff;">
     <strong>Open to PhD opportunities for the 2028 intake.</strong>
 </div>
-

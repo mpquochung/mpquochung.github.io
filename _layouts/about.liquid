@@ -17,7 +17,43 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+        {% if page.profile.flip and page.profile.image %}
+          <div class="profile-flip-card" tabindex="0" aria-label="Flip profile card to view profile details">
+            <div class="profile-flip-card__inner">
+              <div class="profile-flip-card__face profile-flip-card__front">
+                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+                {% if page.profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid rounded-circle' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid' %}
+                {% endif %}
+                {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+                {%
+                  include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                  cache_bust=true
+                %}
+                <span class="profile-flip-card__hint"><i class="fa-solid fa-rotate" aria-hidden="true"></i> View profile</span>
+              </div>
+              <div class="profile-flip-card__face profile-flip-card__back">
+                <div class="profile-flip-card__content">
+                  {% if page.profile.affiliation_logos %}
+                    <div class="coauthor-card__logos">
+                      {% for logo in page.profile.affiliation_logos %}
+                        <img class="coauthor-card__logo" src="{{ '/assets/img/coauthors/logos/' | append: logo.file | relative_url }}" alt="{{ logo.name }} logo" loading="lazy">
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  {% if page.profile.name %}<p class="coauthor-card__eyebrow">{{ page.profile.name }}</p>{% endif %}
+                  {% if page.profile.position %}<h3>{{ page.profile.position }}</h3>{% endif %}
+                  {% if page.profile.affiliation %}<p class="coauthor-card__affiliation">{{ page.profile.affiliation }}</p>{% endif %}
+                </div>
+                {% if page.profile.more_info %}
+                  <div class="more-info profile-flip-card__contact">{{ page.profile.more_info }}</div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% elsif page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
@@ -32,7 +68,7 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
+        {% if page.profile.more_info and page.profile.flip != true %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>

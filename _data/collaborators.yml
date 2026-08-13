@@ -1,13 +1,19 @@
 # Portraits go in assets/img/coauthors/ and affiliation logos go in
-# assets/img/coauthors/logos/. Omitted images fall back gracefully.
+# assets/img/coauthors/logos/. Omitted images fall back gracefully. For multiple
+# affiliations, replace `affiliation_logo` with:
+# affiliation_logos:
+#   - file: first-logo.png
+#     name: First institution
+#   - file: second-logo.svg
+#     name: Second institution
 - name: Bin Zhu
   group: advisor
   initials: BZ
   image: avt/bz.png
-  affiliation_logo: smu.png
+  affiliation_logo: smu_logo.png
   position: Assistant Professor
   affiliation: Singapore Management University
-  collaboration_time: "2026–Present"
+  collaboration_time: "2026 – Present"
   website: https://binzhubz.github.io/
   collaboration: Robot Learning
 
@@ -16,10 +22,14 @@
   group: advisor
   initials: TD
   image: avt/td.png
-  affiliation_logo: n2tp.svg
+  affiliation_logos:
+  - file: n2tp.svg
+    name: B0Labs @ N2TP Technology
+  - file: phenikaa.webp
+    name: Phenikaa University
   position: Head of RnD
   affiliation: B0Labs @ N2TP Technology
-  collaboration_time: 2025-Present
+  collaboration_time: "2025 – Present"
   collaboration: Generative modelling, Information Theory, Game Theory & Robot Learning
 
 - name: Naeem Ul Islam
@@ -37,10 +47,12 @@
   group: advisor
   initials: TL
   image: avt/tluu.png
-  affiliation_logo: UBS-c7036cca.png
+  affiliation_logos:
+  - file: UBS-c7036cca.png
+  - file: epfl.webp
   position: Chapter Lead
-  affiliation: UBS Group
-  collaboration_time: 2023-2025
+  affiliation: UBS Group AG
+  collaboration_time: "2023 – 2025"
   website: https://www.linkedin.com/in/toanluu/
   collaboration: Information Retrieval
 
@@ -51,7 +63,7 @@
   affiliation_logo: neu.png
   position: Dean of Information Technology Faculty
   affiliation: National Economics University
-  collaboration_time: 2023-2025
+  collaboration_time: "2023 – 2025"
   website: https://fit.neu.edu.vn/lecturer/phd-pham-xuan-lam
   collaboration: AI in Education
 
@@ -66,7 +78,7 @@
   affiliation_logo: n2tp.svg
   position: Researcher
   affiliation: B0Labs @ N2TP Technology
-  collaboration_time: 2025-Present
+  collaboration_time: "2025 – Present"
   website: https://scholar.google.com/citations?user=UlrZOcoAAAAJ
   collaboration: Physical AI  
 
@@ -77,7 +89,7 @@
   affiliation_logo: vinuni.png
   position: MSc Student
   affiliation: VinUni
-  collaboration_time: 2023-Present
+  collaboration_time: "2023 – Present"
   collaboration: Robot Learning
   website: https://www.linkedin.com/in/hanh-nguyen-29252b291/
 
@@ -85,10 +97,12 @@
   group: coauthor
   initials: DH
   image: avt/dhn.png
-  affiliation_logo: ntu_logo.png
+  affiliation_logos:
+  - file: ntu_logo.png
+  - file: n2tp.svg
   position: PhD Candidate
   affiliation: Nanyang Technological University
-  collaboration_time: 2026-Present
+  collaboration_time: "2026 – Present"
   collaboration: Communication & Game Theory
   website: https://scholar.google.com/citations?user=iGSMILAAAAAJ
 
@@ -99,19 +113,21 @@
   affiliation_logo: vinuni.png
   position: MSc Student
   affiliation: VinUni
-  collaboration_time: 2023-Present
+  collaboration_time: "2023 – Present"
   collaboration: Language Modelling
-  website: https://scholar.google.com/citations?user=wnv-AeMAAAAJ
+  website: https://hung20gg.github.io/
 
 
 - name: Quoc-Khanh Nguyen
   group: coauthor
   initials: QK
   image: avt/qk.png
-  affiliation_logo: ntu_logo.png
+  affiliation_logos:
+    - file: ntu_logo.png
+    - file: n2tp.svg
   position: PhD Candidate
   affiliation: Nanyang Technological University
-  collaboration_time: 2025-Present
+  collaboration_time: "2025 – Present"
   collaboration: Communication & Game Theory
   website: https://scholar.google.com/citations?user=IK4JaFkAAAAJ&hl  
 
@@ -123,5 +139,5 @@
   affiliation_logo: fpt_logo.png
   position: Research Engineer
   affiliation: FPT QACI
-  collaboration_time: 2023-2024
+  collaboration_time: "2023 – 2024"
   collaboration: Quantum Engineering
