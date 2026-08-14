@@ -17,7 +17,7 @@ profile:
   affiliation_logos:
     - file: n2tp.svg
       name: B0Labs at N2TP Technology
-    - file: smu_logo.png
+    - file: smu-logo.png
       name: Singapore Management University
   more_info: >
     <div class="profile-contact">
