@@ -63,7 +63,7 @@ social: false # includes social icons at the bottom of the page
     where I conduct my first research on Robotics. 
     I began my research journey at NEU Codelabs, under the supervision of 
     <a href="https://fit.neu.edu.vn/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
-    on NLP and AI in Education.
+    on NLP and AI4Edu.
 </p>
 
 <div style="width: 67%; box-sizing: border-box; font-size: 18px; line-height: 1.6; padding: 12px 16px; margin-bottom: 20px; border-left: 4px solid #2563eb; background-color: #eff6ff;">
