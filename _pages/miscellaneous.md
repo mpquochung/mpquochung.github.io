@@ -23,4 +23,4 @@ Two 2nd prizes, and Three 3rd Prizes in the NEU Student Scientific Research Comp
 
 ## Hobby
 
-I love football, both playing and watching. I’ve been a big Arsenal fan since 2015 ❤️🤍. Although I haven’t been able to play as often recently, I’m always open for any chance to get back on the pitch. I also enjoy playing badminton, playing League of Legends (since 2017) or watching K-Dramas in my free time. If you want to play sport or LOL with me (but don't complain if I always pick Xayah), feel free to connect with me! We can be friends not only in research, but also in life 😄
+I love football, both playing and watching. I’ve been a big Arsenal fan since 2015 ❤️🤍. I also enjoy playing badminton, swimming, playing League of Legends, or watching Netflix in my free time. I'm always open to any kind of connection and collaboration so feel free to connect with me, we can be friends not only in research, but also in life 😄
