@@ -55,14 +55,14 @@ social: false # includes social icons at the bottom of the page
 
 <p style="font-size: 18px; line-height: 1.6;">
     I graduated from 
-    <a href="https://nct.neu.edu.vn/" target="_blank" rel="noopener noreferrer">National Economics University, Vietnam</a> 
+    <a href="https://nct.neu.edu.vn/en" target="_blank" rel="noopener noreferrer">National Economics University, Vietnam</a> 
     in 2026. Previously, I was a visiting student at 
     <a href="https://www.yzu.edu.tw/index_en.html" target="_blank" rel="noopener noreferrer">Yuan Ze University</a> 
     in Taiwan, under the supervision of Assistant Professor
     <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam" target="_blank" rel="noopener noreferrer">Naeem Ul Islam</a>,
     where I conduct my first research on Robotics. 
     I began my research journey at NEU Codelabs, under the supervision of 
-    <a href="https://fit.neu.edu.vn/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
+    <a href="https://fit.neu.edu.vn/en/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
     on NLP and AI4Edu.
 </p>
 
