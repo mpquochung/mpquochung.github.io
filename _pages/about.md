@@ -46,10 +46,10 @@ social: false # includes social icons at the bottom of the page
 <p style="font-size: 28px; font-weight: bold;">Hello, I'm <b>Mai Phan Quoc Hung (Hung Mai)</b> 👋</p>
 
 <p style="font-size: 18px; line-height: 1.6;">
-    I am currently a Research Scientist at <a href="https://www.n2tp.com/" target="_blank" rel="noopener noreferrer">B0Labs @ N2TP Technology</a>, as well as a Research Intern at 
+    I am currently Research Engineer at 
     <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener noreferrer">Singapore Management University</a>, 
     under the supervision of Assistant Professor
-    <a href="https://binzhubz.github.io/" target="_blank" rel="noopener noreferrer">Bin Zhu</a>. 
+    <a href="https://binzhubz.github.io/" target="_blank" rel="noopener noreferrer">Bin Zhu</a>, as well as a Collaborating Scientist at <a href="https://www.n2tp.com/" target="_blank" rel="noopener noreferrer">B0Labs @ N2TP Technology</a>.
     My research focuses on generative modelling and robotics, particularly their intersection in robot learning and, more recently, world-action models.
 </p>
 
