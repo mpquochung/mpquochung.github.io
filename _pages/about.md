@@ -43,25 +43,24 @@ social: false # includes social icons at the bottom of the page
     </a>
 </div>
 
-<p style="font-size: 28px; font-weight: bold;">Hello, I'm <b>Mai Phan Quoc Hung (Hung Mai)</b> 👋</p>
+<p style="font-size: 28px; font-weight: bold;">Hello, I'm <b>Mai Phan Quốc Hưng (Hung Mai)</b> 👋</p>
 
 <p style="font-size: 18px; line-height: 1.6;">
     I am currently Research Engineer at 
     <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener noreferrer">Singapore Management University</a>, 
     under the supervision of Assistant Professor
     <a href="https://binzhubz.github.io/" target="_blank" rel="noopener noreferrer">Bin Zhu</a>, as well as a Collaborating Scientist at <a href="https://www.n2tp.com/" target="_blank" rel="noopener noreferrer">B0Labs @ N2TP Technology</a>.
-    My research focuses on generative modelling and robotics, particularly their intersection in robot learning and, more recently, world-action models.
+    My recent research focuses on generative modelling and robotics, particularly, in flow matching, optimal transport, and robot learning.
 </p>
 
 <p style="font-size: 18px; line-height: 1.6;">
     I graduated from 
     <a href="https://nct.neu.edu.vn/en" target="_blank" rel="noopener noreferrer">National Economics University, Vietnam</a> 
-    in 2026. Previously, I was a visiting student at 
+    in 2026. Before, I was a visiting student at 
     <a href="https://www.yzu.edu.tw/index_en.html" target="_blank" rel="noopener noreferrer">Yuan Ze University</a> 
     in Taiwan, under the supervision of Assistant Professor
-    <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam" target="_blank" rel="noopener noreferrer">Naeem Ul Islam</a>,
-    where I conduct my first research on Robotics. 
-    I began my research journey at NEU Codelabs, under the supervision of 
+    <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam" target="_blank" rel="noopener noreferrer">Naeem Ul Islam</a>, on Robot Learning.
+    I began my research journey since 2023 at <a href="https://fit.neu.edu.vn/en/edtechlab" target="_blank" rel="noopener noreferrer">EdTech Lab</a>, under the supervision of 
     <a href="https://fit.neu.edu.vn/en/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
     on NLP and AI4Edu.
 </p>
