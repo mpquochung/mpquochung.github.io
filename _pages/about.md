@@ -23,7 +23,7 @@ profile:
     <div class="profile-contact">
       <p><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+84785334804">+84 785334804</a></p>
       <p><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:maphquochung@gmail.com">maphquochung@gmail.com</a></p>
-      <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Hanoi, Vietnam</span></p>
+      <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Singapore</span></p>
       <div class="profile-social-icons" aria-label="Social profiles">
         <a href="https://www.linkedin.com/in/qhungmp/" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/mpquochung" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
