@@ -48,18 +48,18 @@ social: false # includes social icons at the bottom of the page
 <p style="font-size: 18px; line-height: 1.6;">
     I am currently Research Engineer at 
     <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener noreferrer">Singapore Management University</a>, 
-    under the supervision of Assistant Professor
+    under the supervision of Prof.
     <a href="https://binzhubz.github.io/" target="_blank" rel="noopener noreferrer">Bin Zhu</a>, as well as a Collaborating Scientist at <a href="https://www.n2tp.com/" target="_blank" rel="noopener noreferrer">B0Labs @ N2TP Technology</a>.
     My recent research focuses on generative modelling and robotics, particularly: flow matching and optimal transport, robot learning and control.
 </p>
 
 <p style="font-size: 18px; line-height: 1.6;">
-    In 2026, I obtained BSc in Data Science from 
-    <a href="https://nct.neu.edu.vn/en" target="_blank" rel="noopener noreferrer">National Economics University, Vietnam</a>. I visited 
-    <a href="https://www.yzu.edu.tw/index_en.html" target="_blank" rel="noopener noreferrer">Yuan Ze University</a> in 2025, supervised by Assistant Professor
+    In 2026, I obtained BSc. degree in Data Science from 
+    <a href="https://nct.neu.edu.vn/en" target="_blank" rel="noopener noreferrer">National Economics University</a>. I visited 
+    <a href="https://www.yzu.edu.tw/index_en.html" target="_blank" rel="noopener noreferrer">Yuan Ze University</a> in 2025, supervised by Prof.
     <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem+Ul+Islam" target="_blank" rel="noopener noreferrer">Naeem Ul Islam</a> on Robot Learning.
     I began my research journey since 2023 at <a href="https://fit.neu.edu.vn/en/edtechlab" target="_blank" rel="noopener noreferrer">EdTech Lab</a>, supervised by 
-    <a href="https://fit.neu.edu.vn/en/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Xuan-Lam Pham</a> 
+    <a href="https://fit.neu.edu.vn/en/lecturer/phd-pham-xuan-lam" target="_blank" rel="noopener noreferrer">Dr. Lam Pham</a> 
     on NLP and AI4Edu.
 </p>
 
