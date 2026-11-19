@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers will be presented at UAI 2026
+2 papers accepted at UAI 2026

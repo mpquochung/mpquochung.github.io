@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-08-20
+date: 2025-10-05
 inline: true
 related_posts: false
 ---
 
-One paper accepted to EMNLP 2026
+I have joined B0Labs@N2TP as an AI scientist

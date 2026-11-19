@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper published in Robotics and Autonomous Systems (Elsevier)
+MEAT is published in Robotics and Autonomous Systems (Elsevier)

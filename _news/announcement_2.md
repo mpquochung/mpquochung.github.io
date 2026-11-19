@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will attend ACL 2026
+1 paper accepted at 2026
