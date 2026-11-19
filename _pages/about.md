@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 description: 
-subtitle: Research Engineer @ SMU | AI Scientist @ B0Labs | Xayah Engineer @ Rito
+subtitle: Research Engineer @ SMU | Scientist @ B0Labs | Xayah @ Summoner's Rift
 seo_title: Hung Mai
 
 profile:

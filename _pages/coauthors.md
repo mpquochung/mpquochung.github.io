@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <p class="coauthors-intro">
-  One soul cannot be the whole world, and I am deeply grateful to every co-author whose ideas, dedication, and collaboration have shaped the work we accomplished together. Onward we go!
+  The co-authors and advisors whose ideas and dedication have shaped the work we accomplished together. Onward we go!
 </p>
 
 {% assign coauthors = site.data.collaborators | where: 'group', 'coauthor' %}
