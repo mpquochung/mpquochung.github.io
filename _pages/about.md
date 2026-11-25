@@ -21,7 +21,7 @@ profile:
       name: Singapore Management University
   more_info: >
     <div class="profile-contact">
-      <p><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+84785334804">+84 785334804</a></p>
+      <p><i class="fa-solid fa-phone" aria-hidden="true"></i>(+84)785334804 | (+65) 84439132</a></p>
       <p><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:maphquochung@gmail.com">maphquochung@gmail.com</a></p>
       <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Singapore</span></p>
       <div class="profile-social-icons" aria-label="Social profiles">
